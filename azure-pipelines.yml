@@ -48,7 +48,7 @@ stages:
     pool:
       name: TestAgent   # ✅ Self-hosted pool again
 
-    environment: swarnawebapp
+    environment: susharithaweb
 
     strategy:
       runOnce:
