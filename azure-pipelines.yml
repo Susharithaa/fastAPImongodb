@@ -3,7 +3,7 @@ trigger:
 
 variables:
   azureServiceConnectionId: 'bd4c03a2-a046-4b60-8476-1f1b389dda82'
-  webAppName: 'testeeeappee'
+  webAppName: 'susharithaweb'
   pythonVersion: '3.12'
 
 stages:
@@ -48,7 +48,7 @@ stages:
     pool:
       name: TestAgent   # ✅ Self-hosted pool again
 
-    environment: testeeeappee
+    environment: susharithaweb
 
     strategy:
       runOnce:
