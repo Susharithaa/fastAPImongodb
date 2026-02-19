@@ -4,7 +4,7 @@ trigger:
 variables:
   azureServiceConnectionId: 'bd4c03a2-a046-4b60-8476-1f1b389dda82'
   webAppName: 'susharithaweb'
-  pythonVersion: '3.12'
+  pythonVersion: '3.11'
 
 stages:
 
